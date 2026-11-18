@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Privacy information for GILNET Admin Hub administrators and company invitations."
+    />
+    <title>Privacy Policy | GILNET Admin Hub</title>
+    <link rel="stylesheet" href="./site.css" />
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">GILNET GPM Connect</p>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Effective date: 18 November 2026</p>
+
+      <h2>Who this policy covers</h2>
+      <p>
+        This policy describes how GILNET Admin Hub handles information when
+        authorized administrators use the Hub's company invitation feature.
+      </p>
+
+      <h2>Information processed</h2>
+      <p>
+        The Hub processes administrator account and access information needed
+        to provide the service. For company invitations, it stores recipient
+        email addresses, invitation subjects and message text, delivery status,
+        timestamps, and message identifiers. When an invitation receives a
+        reply, the Hub can store the reply's sender and recipient addresses,
+        subject, plain-text body, message identifiers, and timestamp.
+      </p>
+
+      <h2>How Gmail access is used</h2>
+      <p>
+        The Hub uses Google Gmail API access to send company invitations and
+        replies from support.gilnet.property.manager@gmail.com and to retrieve
+        replies for invitation threads already tracked by the Hub. Its Gmail
+        permissions support sending mail and reading those threads. The Hub
+        does not intentionally search or import unrelated mailbox messages.
+        OAuth credentials are held as server-side Supabase Edge Function
+        secrets; access tokens are used by the server, not embedded in the
+        Android or desktop app.
+      </p>
+
+      <h2>Storage and access</h2>
+      <p>
+        Invitation records and tracked replies are stored in the GILNET
+        Supabase project. Access through the Hub is restricted to authorized
+        Super Admins. Records remain in the project until they are removed
+        through the project's administration or retention processes; the Hub
+        does not currently apply an automatic deletion schedule to invitation
+        records.
+      </p>
+
+      <h2>Service providers</h2>
+      <p>
+        Google provides the Gmail API used to send and retrieve tracked email
+        threads. Supabase provides authentication, server functions, and
+        database hosting for the Hub. Their handling of information is also
+        subject to their own terms and privacy policies.
+      </p>
+
+      <h2>Your choices</h2>
+      <p>
+        The support mailbox owner can revoke the Hub's Gmail access in their
+        Google Account. Revoking access will stop invitation sending and reply
+        synchronization until the integration is authorized again. For
+        questions or requests concerning Hub records, contact the GILNET
+        support team.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Email
+        <a href="mailto:support.gilnet.property.manager@gmail.com">support.gilnet.property.manager@gmail.com</a>
+        or call 0974578222.
+      </p>
+
+      <p><a href="./index.html">Back to GILNET Admin Hub</a></p>
+    </main>
+  </body>
+</html>
